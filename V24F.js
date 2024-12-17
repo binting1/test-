@@ -11818,7 +11818,7 @@ printCommon ();
 
 //2)while chainign array methods, print each card that includes "6ED" in it's printings
 function print6ED () {
-  cards.filter((card) => card.printings.include("6ED")); 
+  cards.filter((card) => card.printings.includes("6ED")); 
   console.log(cards);
 };
 
